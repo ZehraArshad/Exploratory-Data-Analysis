@@ -11,3 +11,11 @@
 - age = [18, 16, 15, ...,45] here **45** is not an outlier because there is some aged 45 in the data
 - sometimes, we remove these outliers, sometimes we don't, depends on the **Domain Knowledge**
 - But it can affect the mean alot, so use medians
+
+## How to deal with?
+
+- Make box plots
+- Identify distribution
+- Go to [dist](https://github.com/ZehraArshad/Python_For_DA)
+- Use either IQR, Zscore depending on the dist
+- Either remove the outlier, keep them or Winsorization or log transformations
