@@ -1,6 +1,6 @@
 # AeroFit Market Research
 
-[**For project data, code and environment setupp**](https://github.com/ZehraArshad/Exploratory-Data-Analysis/tree/main/Project)
+[**For project data, code and environment setup**](https://github.com/ZehraArshad/Exploratory-Data-Analysis/tree/main/Project)
 ## Description
 
 The market research team at AeroFit wants to identify the characteristics of the target audience for each type of treadmill offered by the company to provide better recommendations to new customers. The team decides to investigate whether there are differences across the products concerning customer characteristics.
