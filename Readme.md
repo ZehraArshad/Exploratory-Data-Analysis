@@ -26,34 +26,35 @@ The market research team at AeroFit wants to identify the characteristics of the
 
 ### *Which gender should we market the products to?*
 
-![Gender Marketing](image-4.png)
+![Gender Marketing](images/image-4.png)
+
 
 - All three models can be marketed to both males and females, except for KP781, as a very small number of females are buying that model.
 
 ### *Which marital status should we market the products to?*
 
-![Marital Status Marketing](image-5.png)
+![Marital Status Marketing](images/image-5.png)
 
 - Unlike gender, there is not much difference between single and partnered customers across all products. However, overall, partnered individuals are more likely to purchase a treadmill.
 
 ### *Which age group should we market the products to?*
 
-![Age Group Marketing](image-2.png)
+![Age Group Marketing](images/image-2.png)
 
 - People in their 20s and 30s are the best group to market to.
 - This age group is buying all three models.
 
 ### *How does education (years) reflect on the products?*
 
-![Education vs Products](image-3.png)
+![Education vs Products](images/image-3.png)
 
 - Customers with education levels between 14 and 16 years are buying KP281, whereas those with higher education levels are buying KP781.
 
 ### *Which product should we suggest to customers who will be using the treadmill excessively?*
 
-![Excessive Usage 1](image-7.png)
-![Excessive Usage 2](image-8.png)
-![Excessive Usage 3](image-9.png)
+![Excessive Usage 1](images/image-7.png)
+![Excessive Usage 2](images/image-8.png)
+![Excessive Usage 3](images/image-9.png)
 
 - These graphs clearly suggest that customers with a higher fitness level, who run more miles, and those who use the treadmill daily should be buying KP781, as it has advanced features suited for this group.
 
