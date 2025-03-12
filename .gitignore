@@ -1,0 +1,6 @@
+env_for_eda/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
