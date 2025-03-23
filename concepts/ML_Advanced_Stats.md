@@ -20,3 +20,39 @@ Sometimes, the Mean Absolute deviation calculated by Abs(Avg-data points) might 
 ### Practical Demo
 
 It is when we use L1 (MAD), L2(STD)
+
+
+## Where to use logarithmic trans
+
+- when we have some values that are too high, some are way less. For eg. Bank Investments, Earthquake scales like 5. 6,7 \
+
+
+  ## Where to use sin, cosine, tan?
+
+  - Iphone docs will have more iphone than galaxy and vice versa
+  -  can figure out that 3(iphone):1(galaxy) - > Iphone doc
+  -  but in real world it is not possible because
+  -  Iphone 3, Galaxy 2, Pixel 1 , ...
+    <br/>
+  -  ![image](https://github.com/user-attachments/assets/05891d72-0b16-4138-8a34-df55fc6e6280)
+
+<br/>
+
+![image](https://github.com/user-attachments/assets/ab739835-d2f8-45bb-b52c-52a2d815b748)
+
+<br/>
+
+Cosine distance = 1- costheta
+
+
+## Ab Testing
+- testing on diff groups to check whether a or b. Its a practical application of Hypothesis Testing
+
+## Hypothesis Testing
+
+Following are some ways to do hypothesis testing where we reject a null hypothesis (widely accepted, general truth) to prove alternative 
+- anova
+- z test
+- t test
+- chi square
+  
