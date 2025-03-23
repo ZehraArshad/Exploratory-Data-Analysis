@@ -1,6 +1,6 @@
 # Machine Learning 
 
-!(Every ml model in 15 mins)[https://www.youtube.com/watch?v=E0Hmnixke2g]
+[Every ml model in 15 mins](https://www.youtube.com/watch?v=E0Hmnixke2g)
 
 ## Supervised Learning (Labelled)
 
