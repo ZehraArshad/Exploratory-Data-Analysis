@@ -19,3 +19,5 @@
 - Go to [dist](https://github.com/ZehraArshad/Python_For_DA)
 - Use either IQR, Zscore depending on the dist
 - Either remove the outlier, keep them or Winsorization or log transformations
+- Use +3std and -3std to remove outliers
+- 
