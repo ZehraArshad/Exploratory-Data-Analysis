@@ -7,7 +7,14 @@
 # - Regression
 
 #### You're solving for y using x(s).
-- Linear Regression (predicting a y based on a x)
+##### - Linear Regression (predicting a y based on a x)
+
+y = 1/2a
+y= -9c
+y=-7b
+
+what is impacting more? C because it negativelty impacts more. Therefore, if we wanna save on resources than we can skip a as it has the least impact
+
 - Random Forest (uses bagging concept to built on top of multiple decision trees and combine their effects)
 - Xgboost (uses boosting to use mutiple dec tress in sequence rather than in parallel as done in random forest
 
