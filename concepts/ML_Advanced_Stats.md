@@ -15,6 +15,7 @@ Because, sometimes we wanna figure how how spread the data is from mean/avg.
 Sometimes, the Mean Absolute deviation calculated by Abs(Avg-data points) might be same for diff data thats where we use square instead of ABS. That formula then becomes that of the STD and can be used to figure what is the spread of data. 
 
 </br>
+
 ![image](https://github.com/user-attachments/assets/412cffde-e465-41f0-bf22-c9b9b3420516)
 
 ### Practical Demo
