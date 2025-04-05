@@ -1,0 +1,2 @@
+- KNN with PCA
+- Scaling (Where, where not)
