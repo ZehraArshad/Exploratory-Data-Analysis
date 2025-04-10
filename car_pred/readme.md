@@ -1,4 +1,12 @@
-# Price Prediction
+# Price Prediction For Cars
+
+### Dataset Description:
+- More than 30,000 rows
+- 26+ features
+- categorical variables making 
+
+### For data prep ▶️ [Data Processing](data_processing.ipynb)
+### For ML model ▶️ [ML Model](model.ipynb)
 
 
 ## Data Handling 
@@ -6,6 +14,7 @@
 ### Categorical Features 
 - Found patterns using group by
 - When no pattern was found, used mode for imputation
+- 24% of the data was categorical
 
 ### Numerical Features
 - Used KNN Imputer to impute values using 3 nearest neighbours
