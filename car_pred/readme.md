@@ -5,7 +5,10 @@
 - 26+ features
 - 24% of the data was categorical
 
-### For data prep ▶️ [Data Processing](data_processing.ipynb)
+### For eda ▶️ [Cleaning Categorical Data](clean_cat.ipynb)
+
+### For feature selection ▶️ [Data Processing](data.ipynb)
+
 ### For ML model ▶️ [ML Model](model.ipynb)
 
 
