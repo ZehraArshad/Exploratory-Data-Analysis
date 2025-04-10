@@ -3,7 +3,7 @@
 ### Dataset Description:
 - More than 30,000 rows
 - 26+ features
-- 24% of the data was categorical
+- 61% of the data was categorical
 
 ### For eda ▶️ [Cleaning Categorical Data](clean_cat.ipynb)
 
