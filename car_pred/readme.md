@@ -5,35 +5,71 @@
 - 26+ features
 - 61% of the data was categorical
 
-### For eda ▶️ [Cleaning Categorical Data](clean_cat.ipynb)
 
-### For feature selection ▶️ [Data Processing](data.ipynb)
+## Model Perfomance
 
-### For ML model ▶️ [ML Model](model.ipynb)
+- The results clearly explain the common belief of random forest outperforming the other two as it averages multiple decisions.
+
+- Linear Regression clearly validates the fact of being bad at recognizing multicollinearity (independent variables being highly correlated)
+
+![alt text](image-3.png)
+</br>
+
+## Room For Improvement
+- Manipulating hyperparameters can significantly help in case of DT and RF.
+- The current data was not handled for skewness.
+
+## Sequence Followed
+### Data Inspection 
+🔨 used .info(), .describe(), missingno., .skew(), valuecount()
+
+🔨 Distributions seemed normal mostly, except width, curb-weigth, compression-ratio, city-mpg, highway-mpg, engine size.
+
+🔨 valuecounts() revealed that some columns appear object even though they are numerical
+
+🔨 This might have happened because some columns had ? instead of relevant values
+
+🔨 Used to_numeric to convert such columns into numerical
+
+### Imputation or Handling Nulls
+
+🔨 used Simple Imputer's mode and most frequent strategy to handle both numerical and categorical.
+
+🔨 no more nulls
+
+### Encoding
+
+🔨 Label Encoder for ordinal
+
+🔨 Dummies for nominal 
+
+### Scaling
 
 
-## Data Handling 
+**Before Scaling**
 
-### Categorical Features 
-- Found patterns using group by
-- When no pattern was found, used mode for imputation
-
-
-### Numerical Features
-- Used KNN Imputer to impute values using 3 nearest neighbours
-
-### Encoding 
-- Performed encoding through dummies (One hot encoding)
-
-### Selection of Features
-- Selected features using correlation matrix
-- Kept only 23 columns from 76 columns
-
-![alt text](image.png)
+![Before Saling](image.png)
 
 <br/>
 
-## Results
-- Decision Tree - MSE: 216047.94700810735, R2: 0.9967441326096554 
-- Linear Regression - MSE: 6167293.005773001, R2: 0.9070581856376413
-- Random Forest - MSE: 214321.36337854975, R2: 0.9967701524233775
+🔨 used Standard Scaler
+
+<br/>
+
+**After Scaling**
+
+![alt text](image-2.png)
+</br>
+
+### Selecting Features
+
+🔨 used .corr
+🔨 used a threshold of 0.3 
+
+### ML Model
+
+🔨Split 20:80 -> test: train
+
+![alt text](image-3.png)
+
+
