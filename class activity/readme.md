@@ -87,3 +87,9 @@ same pre-process as knn
 
 </br>
 
+
+## Missed Arrows
+
+
+- Not scaling returns same accuracy 
+- changing threshold of amouunt from median to near mean (5000) doesn't make much difference
