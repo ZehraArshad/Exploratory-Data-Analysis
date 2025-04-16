@@ -1,4 +1,4 @@
-# Advanced ML Concepts of Stats
+# Advanced ML Concepts of Statistics
 
 [Playlist](https://www.youtube.com/watch?v=okhrFgaUwio&list=PLeo1K3hjS3uuKaU2nBDwr6zrSOTzNCs0l&index=4)
 
