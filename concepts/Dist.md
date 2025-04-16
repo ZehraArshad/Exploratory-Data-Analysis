@@ -18,3 +18,16 @@
 for skewed, use **IQR**
 <br/>
 ![image](https://github.com/user-attachments/assets/4cbae18c-062f-4996-8351-2a5d6a803d4d)
+
+
+### IQR 
+
+- get percentiles 
+- Q1 - 25%, q2 - 50% so on
+- calculate IQR 
+-  IQR = Q3-Q1
+- lower bound = Q1 - 1.5 * IQR
+- upper bound = Q3 + 1.5 * IQR
+- we keep everything above lb and below ub. remove everything else.
+
+
