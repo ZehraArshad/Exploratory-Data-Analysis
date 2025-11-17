@@ -4,7 +4,18 @@
 
 - Any normal distribution can be converted to standard normal distribution (mean = 0, std= 1). This is done through a table that we have to find areas to the left using z-score. 
 
-- In code, this is simply StandardScaler. 
+- Positive z score is right to the mean (x=0) then z>0 is the right
+- X = 65, x= 60 then we look to the right
+- X = 56 x = 60 then we look to the left
+  
+| Z-score | Position      | Area for P(X < x) | Area for P(X > x) |
+| ------- | ------------- | ----------------- | ----------------- |
+| z > 0   | Right of mean | Left area         | Right area        |
+| z = 0   | At mean       | 0.50              | 0.50              |
+| z < 0   | Left of mean  | Left area         | Right area        |
+
+- In code, this is simply StandardScaler.
+  
 
 
 ### Below [image from YT video](https://www.youtube.com/watch?v=2tuBREK_mgE) 
